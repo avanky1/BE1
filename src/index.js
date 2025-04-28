@@ -9,7 +9,8 @@
 // dotenv.config({path:'./.env'});
 // connectDB();
 
-
+const app = express();
+import express from 'express';
 import dotenv from "dotenv";
 import connectDB from "./db/index.js"; // <-- fixed here
 
